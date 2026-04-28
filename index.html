@@ -54,30 +54,6 @@ body{background:#e8ede8;font-family:'Montserrat',sans-serif;min-height:100vh;dis
 .info-value{font-family:'Playfair Display',serif;font-size:15px;color:#0e2218;line-height:1.4}
 .info-sub{font-size:11px;color:#0e2218;font-weight:500;margin-top:2px}
 
-/* RECEPCIÓN */
-.reception-header{display:flex;align-items:center;gap:10px;margin-bottom:1.2rem}
-.reception-header .line{flex:1;height:0.5px;background:#b0c8b8}
-.reception-title{font-size:8px;letter-spacing:0.45em;text-transform:uppercase;color:#0d2e1c;font-weight:700;white-space:nowrap}
-.reception-section{border:0.5px solid #88b8a0;margin-bottom:2rem;overflow:hidden}
-.reception-top{background:linear-gradient(160deg,#1e3c2c 0%,#2e5040 50%,#3d7a5c 100%);padding:1.4rem 1.6rem;text-align:center;position:relative}
-.reception-top::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(255,255,255,0.1) 0%,transparent 70%)}
-.reception-time-label{position:relative;z-index:1;font-size:8px;letter-spacing:0.4em;text-transform:uppercase;color:#d0f0e0;font-weight:600;margin-bottom:0.5rem}
-.reception-time{position:relative;z-index:1;font-family:'Great Vibes',cursive;font-size:52px;color:#ffffff;line-height:1;text-shadow:0 2px 10px rgba(10,40,20,0.5)}
-.reception-time-sub{position:relative;z-index:1;font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:#e8f8f0;font-weight:500;margin-top:0.3rem}
-.reception-body{padding:1.4rem 1.6rem;background:#faf9f5}
-.reception-intro{font-family:'EB Garamond',serif;font-style:italic;font-size:15px;color:#0e2218;line-height:1.9;text-align:center;margin-bottom:1.4rem}
-
-/* Venue */
-.venue-block{background:#e0f0e8;border:0.5px solid #88b8a0;padding:1rem 1.2rem;margin-bottom:1.2rem}
-.venue-label{font-size:8px;letter-spacing:0.4em;text-transform:uppercase;color:#0d2e1c;font-weight:700;margin-bottom:0.5rem}
-.venue-name{font-family:'Playfair Display',serif;font-size:16px;color:#0e2218;margin-bottom:2px}
-.venue-address{font-size:11px;color:#0d2218;font-weight:500;margin-bottom:0.9rem}
-.map-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;background:#2e5040;color:#ffffff;border:none;padding:0.7rem 1rem;cursor:pointer;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;text-decoration:none;transition:background 0.2s}
-.map-btn:hover{background:#1e3c2c}
-.map-btn svg{width:14px;height:14px;flex-shrink:0}
-
-.reception-note{background:#1e3c2c;padding:1rem 1.2rem;font-family:'EB Garamond',serif;font-style:italic;font-size:14px;color:#d8ece0;line-height:1.8;text-align:center}
-
 .dress-section{margin-bottom:2rem}
 .section-label{font-size:8px;letter-spacing:0.4em;text-transform:uppercase;color:#0d2e1c;font-weight:700;text-align:center;margin-bottom:0.9rem}
 .dress-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
@@ -90,25 +66,15 @@ body{background:#e8ede8;font-family:'Montserrat',sans-serif;min-height:100vh;dis
 .gift-text{font-family:'EB Garamond',serif;font-style:italic;font-size:15.5px;color:#0e2218;line-height:1.85}
 .gift-emphasis{font-family:'Playfair Display',serif;font-size:14px;color:#0e2218;margin-top:0.9rem;display:block;font-style:italic}
 
-/* CONFIRMACIÓN */
-.confirm-section{background:#1e3c2c;padding:2rem 1.8rem}
-.confirm-header{text-align:center;margin-bottom:1.5rem}
-.confirm-label{font-size:8px;letter-spacing:0.5em;text-transform:uppercase;color:#c8f0dc;font-weight:600;margin-bottom:0.5rem}
-.confirm-title{font-family:'Playfair Display',serif;font-style:italic;font-size:20px;color:#ffffff;line-height:1.3}
-.confirm-subtitle{font-size:11px;color:#d8f0e8;font-weight:400;margin-top:0.4rem;letter-spacing:0.05em}
-.confirm-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:1.2rem}
-.confirm-card{background:rgba(255,255,255,0.07);border:0.5px solid rgba(255,255,255,0.2);padding:1.1rem 0.8rem;text-align:center}
-.confirm-role{font-size:8px;letter-spacing:0.35em;text-transform:uppercase;color:#c8f0dc;font-weight:600;margin-bottom:0.4rem}
-.confirm-name{font-family:'Great Vibes',cursive;font-size:30px;color:#ffffff;line-height:1.1;margin-bottom:0.5rem;text-shadow:0 1px 6px rgba(0,0,0,0.3)}
-.confirm-number{font-size:12px;color:#f0faf5;font-weight:500;letter-spacing:0.08em;margin-bottom:0.8rem}
-.wa-btn{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;background:#25D366;color:#ffffff;border:none;padding:0.6rem 0.5rem;cursor:pointer;font-family:'Montserrat',sans-serif;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:background 0.2s}
-.wa-btn:hover{background:#128C7E}
-.wa-btn svg{width:14px;height:14px;flex-shrink:0}
-.confirm-note{text-align:center;font-family:'EB Garamond',serif;font-style:italic;font-size:13px;color:#d8f0e8;line-height:1.7}
-
-.closing{text-align:center;padding:1.8rem 1rem 0.5rem;background:#faf9f5}
-.closing-text{font-family:'EB Garamond',serif;font-style:italic;font-size:17px;color:#0e2218;line-height:1.8}
-.closing-names{font-family:'Great Vibes',cursive;font-size:48px;color:#1e4838;margin-top:0.3rem;display:block;line-height:1.1}
+.closing{text-align:center;padding:0 0 0;background:#faf9f5}
+.closing-inner{background:linear-gradient(160deg,#3d7a5c 0%,#5a8c70 40%,#7aab8a 100%);padding:2.2rem 2rem 2.4rem;position:relative;overflow:hidden}
+.closing-inner::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%,rgba(255,255,255,0.15) 0%,transparent 70%)}
+.closing-ornament{position:relative;z-index:1;display:flex;align-items:center;gap:12px;justify-content:center;margin-bottom:1.4rem}
+.closing-orn-line{height:0.5px;width:40px;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.6))}
+.closing-orn-line.r{background:linear-gradient(90deg,rgba(255,255,255,0.6),transparent)}
+.closing-orn-diamond{width:5px;height:5px;background:rgba(255,255,255,0.7);transform:rotate(45deg)}
+.closing-text{position:relative;z-index:1;font-family:'EB Garamond',serif;font-style:italic;font-size:16px;color:#e8f8f0;line-height:1.9;margin-bottom:1.2rem;text-shadow:0 1px 4px rgba(10,40,20,0.4)}
+.closing-names{position:relative;z-index:1;font-family:'Great Vibes',cursive;font-size:58px;color:#ffffff;display:block;line-height:1.1;text-shadow:0 2px 12px rgba(10,40,20,0.35)}
 .bottom-band{height:5px;background:linear-gradient(90deg,#5a8c70,#9ec4a8,#5a8c70)}
 </style>
 </head>
@@ -127,7 +93,7 @@ body{background:#e8ede8;font-family:'Montserrat',sans-serif;min-height:100vh;dis
       <span class="name">Isa</span>
     </div>
     <div class="date-badge">
-      <span class="date-text">17 · Mayo · 2026 &nbsp;·&nbsp; 3:00 PM</span>
+      <span class="date-text">17 · Mayo · 2026 &nbsp;·&nbsp; 4:30 PM</span>
     </div>
   </div>
 
@@ -194,7 +160,7 @@ body{background:#e8ede8;font-family:'Montserrat',sans-serif;min-height:100vh;dis
         <div>
           <p class="info-label">fecha y hora</p>
           <p class="info-value">Domingo, 17 de Mayo de 2026</p>
-          <p class="info-sub">3:00 PM</p>
+          <p class="info-sub">4:30 PM</p>
         </div>
       </div>
       <div class="info-row">
@@ -207,41 +173,6 @@ body{background:#e8ede8;font-family:'Montserrat',sans-serif;min-height:100vh;dis
           <p class="info-label">conferencia</p>
           <p class="info-value">Salón del Reino de los Testigos de Jehová</p>
           <p class="info-sub">Barrio Olaya · Cr. 18C # 26-33 Sur</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- RECEPCIÓN -->
-    <div class="reception-header">
-      <div class="line"></div>
-      <span class="reception-title">recepción</span>
-      <div class="line"></div>
-    </div>
-
-    <div class="reception-section">
-      <div class="reception-top">
-        <p class="reception-time-label">continuamos la celebración a las</p>
-        <span class="reception-time">6:00 pm</span>
-        <p class="reception-time-sub">mismo día · 17 de Mayo</p>
-      </div>
-      <div class="reception-body">
-        <p class="reception-intro">
-          Nos complace invitarte a compartir una velada íntima y elegante,<br>
-          llena de momentos que guardarás en el corazón.
-        </p>
-        <div class="venue-block">
-          <p class="venue-label">lugar de la recepción</p>
-          <p class="venue-name">Villanova Apartamentos</p>
-          <p class="venue-address">Cl. 28 Sur #24-80 · Bogotá</p>
-          <a class="map-btn" href="https://maps.app.goo.gl/us8wvtbodHuFVtoi9" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/>
-            </svg>
-            Ver ubicación en Google Maps
-          </a>
-        </div>
-        <div class="reception-note">
-          Te esperamos puntual para aprovechar cada detalle que hemos preparado con mucho amor.
         </div>
       </div>
     </div>
@@ -270,48 +201,23 @@ body{background:#e8ede8;font-family:'Montserrat',sans-serif;min-height:100vh;dis
       <span class="gift-emphasis">Tu compañía es nuestro mayor regalo.</span>
     </div>
 
-    <div class="soft-divider"><div class="line"></div><div class="dot"></div><div class="line"></div></div>
-  </div>
-
-  <!-- CONFIRMACIÓN -->
-  <div class="confirm-section">
-    <div class="confirm-header">
-      <p class="confirm-label">confirmación de asistencia</p>
-      <p class="confirm-title">¿Nos acompañarás?</p>
-      <p class="confirm-subtitle">Confirma tu asistencia vía WhatsApp</p>
-    </div>
-    <div class="confirm-cards">
-      <div class="confirm-card">
-        <p class="confirm-role">el novio</p>
-        <p class="confirm-name">Juan</p>
-        <p class="confirm-number">315 315 2423</p>
-        <a class="wa-btn" href="https://wa.me/573153152423?text=Hola%20Juan!%20Confirmo%20mi%20asistencia%20a%20su%20boda%20el%2017%20de%20mayo%20%F0%9F%8C%BF" target="_blank">
-          <svg viewBox="0 0 24 24" fill="#ffffff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Escribir
-        </a>
-      </div>
-      <div class="confirm-card">
-        <p class="confirm-role">la novia</p>
-        <p class="confirm-name">Isa</p>
-        <p class="confirm-number">300 170 8246</p>
-        <a class="wa-btn" href="https://wa.me/573001708246?text=Hola%20Isa!%20Confirmo%20mi%20asistencia%20a%20su%20boda%20el%2017%20de%20mayo%20%F0%9F%8C%BF" target="_blank">
-          <svg viewBox="0 0 24 24" fill="#ffffff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Escribir
-        </a>
-      </div>
-    </div>
-    <p class="confirm-note">Por favor confirma antes del 27 de abril.<br>¡Tu presencia es lo que más nos importa!</p>
+    <div class="soft-divider" style="margin-bottom:0"><div class="line"></div><div class="dot"></div><div class="line"></div></div>
   </div>
 
   <div class="closing">
-    <p class="closing-text">Con amor y gratitud a Jehová,<br>los esperamos con los brazos abiertos.</p>
-    <span class="closing-names">Juan &amp; Isa</span>
+    <div class="closing-inner">
+      <div class="closing-ornament">
+        <div class="closing-orn-line"></div><div class="closing-orn-diamond"></div><div class="closing-orn-line r"></div>
+      </div>
+      <p class="closing-text">Con amor y gratitud a Jehová,<br>los esperamos con los brazos abiertos.</p>
+      <span class="closing-names">Juan &amp; Isa</span>
+    </div>
   </div>
   <div class="bottom-band"></div>
 </div>
 
 <script>
-const eventDate=new Date('2026-05-17T15:00:00');
+const eventDate=new Date('2026-05-17T16:30:00');
 function updateCountdown(){
   const diff=eventDate-new Date();
   if(diff<=0){document.getElementById('cd-days').textContent='0';document.getElementById('cd-hours').textContent='0';document.getElementById('cd-mins').textContent='0';return}
